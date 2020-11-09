@@ -1,0 +1,16 @@
+class Bird extends BaseClass {   // stating this a child class of the BaseClass
+constructor(x,y) {
+super(x, y, 50, 50); // adding properties of the BaseClass
+this.image = loadImage("sprites/bird.png");
+
+} // end of constructor
+
+display() {
+
+this.body.position.x = mouseX;
+this.body.position.y = mouseY;
+super.display();   // displying properties of the BaseClass
+
+} // end of display
+
+} // end of bird class

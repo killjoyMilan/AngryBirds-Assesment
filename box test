@@ -1,0 +1,10 @@
+class Box extends BaseClass { // displaying class Box as a child class of BaseClass
+constructor(x, y, widht, height)  {
+
+super(x, y, width, height);   // adding properties of the BaseClass
+this.image = loadImage("sprites/wood1.png");
+
+} // end of constructor
+
+
+}; // end of box class
